@@ -26,7 +26,7 @@ header {
   background-color: blue;
 }
 nav {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   height: 13vh;
   width: 50vw;
@@ -62,7 +62,7 @@ svg[class="nav-item"] {
   height: 22px;
 }
 .logo {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   width: 10vw;
   position: relative;
@@ -70,7 +70,7 @@ svg[class="nav-item"] {
   left: 20px;
 }
 .header-text {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   text-align: left;
   position: relative;
@@ -99,7 +99,7 @@ svg[class="nav-item"] {
 }
 
 .header-image {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   width: 40vw;
   position: relative;
@@ -273,7 +273,7 @@ svg[class="nav-item"] {
   background-color: #fff;
 }
 .blog-image > img {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   width: 21vw;
   position: relative;
@@ -281,7 +281,7 @@ svg[class="nav-item"] {
   left: 0;
 }
 .blog-content {
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   /* height: 50vh; */
   padding-left: 4vw;
@@ -478,7 +478,7 @@ button {
   height: 40vh;
   top: 10vh;
   left: 0px;
-  display: inline-block;
+  display: inline-block; 
   width: 99vw;
   background-color: blue;
 }
