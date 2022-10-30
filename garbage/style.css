@@ -1,0 +1,152 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  position: relative;
+  background-image: url("");
+  background-position: top right;
+}
+nav {
+  display: inline-block;
+  width: 99%;
+  height: 250px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border: 4px solid white;
+}
+
+nav > * {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  left: 500px;
+  inline-size: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  font-size: 9px;
+  color: white;
+}
+header > nav {
+  widows: 100%;
+  float: left;
+}
+header > div {
+  width: 100%;
+  float: left;
+}
+.nav-item-active {
+  display: inline-block;
+  background-color: white;
+  color: blue;
+  position: relative;
+  padding-top: 2px;
+  top: 18px;
+  left: 500px;
+  font-size: 9px;
+  border-radius: 3px;
+  height: 18px;
+  width: 45px;
+}
+svg[class="nav-item"] {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+}
+.logo {
+  position: relative;
+  top: -240px;
+  left: 15px;
+  width: 60px;
+}
+.header-text {
+  position: relative;
+  top: -205px;
+  left: 25px;
+  width: 270px;
+  height: 100px;
+  border: 1px solid black;
+}
+.header-text > img {
+  position: relative;
+  top: -8px;
+  left: 0px;
+  width: 19px;
+  color: white;
+}
+.header-text > h2 {
+  font-size: 12px;
+  color: white;
+}
+.header-text > p {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  font-size: 9px;
+  color: white;
+}
+
+.header-image {
+  position: relative;
+  top: -305px;
+  left: 679px;
+  max-width: 100%;
+  width: 250px;
+  float: left;
+  margin: 2px;
+  border-radius: 4px;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* nav [src="./images/logo.svg"] {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-overflow: hidden;
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 25px;
+  inline-size: 100px;
+  width: 75px;
+}
+.signin-btn {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-overflow: hidden;
+  position: relative;
+  font-size: 10px;
+  float: right;
+  top: 20px;
+  left: -50px;
+  inline-size: 100px;
+  width: 80px;
+  height: 20px;
+  border-radius: 25px;
+  border: 0px solid transparent;
+  color: white;
+  background-image: linear-gradient(90deg, #8a2be2, #ff00ff);
+}
+.signin-btn:hover {
+  color: #8a2be2;
+  background-image: linear-gradient(90deg, white, white);
+  border: 1px solid #ff00ff;
+} */
